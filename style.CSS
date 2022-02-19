@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    display: grid;
+    place-items: center;
+}
+
+.mainDiv{
+    height: 100vh;
+    width: 100vw;
+}
+
+.subDiv{
+    height: 40vh;
+    width: 35vw;
+    padding: 1em;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.count{
+    height: 10vh;
+    width: 20vw;
+    background-color: bisque;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+#numberOfCount{
+    font-weight: 800;
+    width: 30vw;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    font-size: 50px;
+}
+
+.icons{
+    user-select: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 50px;
+}
+
+#numberOfLikes{
+    color: rgb(0, 128, 0);
+}
+
+#numberOfDislikes{
+    color: red;
+}
+
+#numberOfLikes:active{
+    opacity: 0.6;
+    padding: 0 0 8px 0px;
+}
+
+#numberOfDislikes:active{
+    opacity: 0.6;
+    padding: 10px 0 0 0;
+}
+
